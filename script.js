@@ -1,24 +1,3 @@
-// complete this js code
-class Person{
-	constructor(name,age){
-		this.name=name;
-		this.age=age;
-	}
-	gteet(){
-		console.log(`Hello, my name is ${name}, I am ${age} years old`)
-	}
-}
-class Emploee extends Person {
-	constructor(name,age,jobTitle) {
-		this.name=name;
-		this.age=age;
-		this.jobTitle=jobTitle;
-	}
-	jobGreet(){
-		console.log(`Hello, my name is ${name}, I am ${age} years old, and my job title is ${jobTitle}`)
-	}
-}
-function Person(name, age) {}
 class Person {
     constructor(name, age) {
         this.name = name;
@@ -44,12 +23,3 @@ class Employee extends Person {
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
-
-function Employee(name, age, jobTitle) {}
-
-// Do not change code below this line
-window.Person = Person;
-window.Employee = Employee;
-
-
-
